@@ -1,0 +1,17 @@
+{
+  "totalBundles": 10,
+  "successes": 8,
+  "failures": 2,
+  "bundles": [
+    {"index":1,"status":"SUCCESS","tipAmount":0.001,"submittedSlot":468917800,"confirmedSlot":468917802},
+    {"index":2,"status":"SUCCESS","tipAmount":0.001,"submittedSlot":468917805,"confirmedSlot":468917807},
+    {"index":3,"status":"FAILED","failureClassification":"BLOCKHASH_EXPIRED","submittedSlot":468917810},
+    {"index":4,"status":"SUCCESS","tipAmount":0.002,"submittedSlot":468917815,"confirmedSlot":468917817},
+    {"index":5,"status":"SUCCESS","tipAmount":0.001,"submittedSlot":468917820,"confirmedSlot":468917822},
+    {"index":6,"status":"SUCCESS","tipAmount":0.001,"submittedSlot":468917825,"confirmedSlot":468917827},
+    {"index":7,"status":"FAILED","failureClassification":"BUNDLE_FAILURE","submittedSlot":468917830},
+    {"index":8,"status":"SUCCESS","tipAmount":0.002,"submittedSlot":468917835,"confirmedSlot":468917837},
+    {"index":9,"status":"SUCCESS","tipAmount":0.001,"submittedSlot":468917840,"confirmedSlot":468917842},
+    {"index":10,"status":"SUCCESS","tipAmount":0.001,"submittedSlot":468917845,"confirmedSlot":468917847}
+  ]
+}

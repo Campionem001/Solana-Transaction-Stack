@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-12T06:35:28.301Z",
+  "currentSlot": 468863542,
+  "targetLeaderSlot": 468863544,
+  "actualSubmissionSlot": 468863616,
+  "offset": 2,
+  "methodUsed": "REAL_SCHEDULE",
+  "success": false,
+  "note": "Used actual Solana leader schedule"
+}

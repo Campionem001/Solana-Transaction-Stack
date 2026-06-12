@@ -1,0 +1,47 @@
+{
+  "agentName": "Real AI Agent - Solana Transaction Stack",
+  "decisionsMade": 2,
+  "learningData": {
+    "failurePatterns": {
+      "BLOCKHASH_EXPIRED": 1
+    },
+    "successfulTips": [],
+    "failedTips": [
+      0.001,
+      0.002
+    ]
+  },
+  "decisionHistory": [
+    {
+      "timestamp": "2026-06-11T15:33:43.110Z",
+      "context": {
+        "attemptNumber": 2,
+        "tipAmount": 0.001
+      },
+      "decision": {
+        "action": "REFRESH_BLOCKHASH",
+        "shouldRetry": true,
+        "newTipMultiplier": 1,
+        "waitMs": 500,
+        "reasoning": "Since blockhash expired, refreshing and resubmitting with same tip. Network conditions haven't changed significantly (1 similar failures seen)."
+      },
+      "outcome": "failed"
+    },
+    {
+      "timestamp": "2026-06-11T15:33:43.125Z",
+      "context": {
+        "attemptNumber": 3,
+        "tipAmount": 0.002
+      },
+      "decision": {
+        "action": "REFRESH_BLOCKHASH",
+        "shouldRetry": true,
+        "newTipMultiplier": 1,
+        "waitMs": 500,
+        "reasoning": "Since blockhash expired, refreshing and resubmitting with same tip. Network conditions haven't changed significantly (1 similar failures seen)."
+      },
+      "outcome": "failed"
+    }
+  ],
+  "timestamp": "2026-06-11T15:33:44.955Z"
+}

@@ -1,0 +1,24 @@
+{
+  "signature": "57gztx7R2eTqJtT7EWVwWjV9zSyCvz5ddvHtV1Xdyh2tpD9feXf1rZTV9hkjKwDUVH8Psz8rQTfByxtbPhoywrx",
+  "stages": [
+    {
+      "stage": "processed",
+      "timestamp": "2026-06-11T13:51:21.527Z",
+      "latencyMs": 617,
+      "slot": 468704385
+    },
+    {
+      "stage": "confirmed",
+      "timestamp": "2026-06-11T13:51:21.754Z",
+      "latencyMs": 210,
+      "slot": 468704385
+    },
+    {
+      "stage": "finalized",
+      "timestamp": "2026-06-11T13:51:21.937Z",
+      "latencyMs": 182,
+      "slot": 468704385
+    }
+  ],
+  "totalLatency": 182
+}

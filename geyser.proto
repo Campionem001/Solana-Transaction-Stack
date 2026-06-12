@@ -1,0 +1,34 @@
+
+syntax = "proto3";
+package geyser;
+
+service Geyser {
+    rpc Subscribe(SubscribeRequest) returns (stream SubscribeResponse);
+}
+
+message SubscribeRequest {
+    map<string, AccountSubscription> accounts = 1;
+    SlotSubscription slots = 2;
+    TransactionSubscription transactions = 3;
+}
+
+message AccountSubscription {
+}
+
+message SlotSubscription {
+}
+
+message TransactionSubscription {
+}
+
+message SubscribeResponse {
+    oneof message {
+        SlotUpdate slot = 2;
+    }
+}
+
+message SlotUpdate {
+    uint64 slot = 1;
+    uint64 parent = 2;
+    uint64 timestamp = 3;
+}
