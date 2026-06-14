@@ -38,3 +38,4 @@ Bundle not included. AI detects, waits for next leader, refreshes, resubmits.
 
 ## Logs
 See logs/bundle-lifecycle.json for 10 bundle submissions with 2 failures.
+**Architecture Document:** [Click here](https://docs.google.com/document/d/1Pe2opMk3cEoz-OWAi8YfAfD1zBlBBJzbgGXw4Qau63Q/edit?usp=drivesdk)
